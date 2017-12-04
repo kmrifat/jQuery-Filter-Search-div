@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <h4>jQuery Filter by category and search</h1>
+        <br>
+        <hr>
+
+    <div class="row">
+        <div class="col-md-4">
+            <input type="text" id="search" class="form-control" placeholder="Search product by name or sku">
+        </div>
+        <div class="col-md-8">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" id="all" class="btn btn-success">All</button>
+                <button type="button" id="drink" class="btn btn-success">Drink</button>
+                <button type="button" id="food" class="btn btn-success">Food</button>
+                <button type="button" id="c" class="btn btn-success">C</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row" id="parent">
+        <div class="col-md-2 box drink">
+            <center>
+                <img src="http://via.placeholder.com/80x80" class="" alt="">
+                <p class="name">Pepsi </p>
+                <p class="sku">D-1251</p>
+                <p>$ 2,410</p>
+            </center>
+        </div>
+        <div class="col-md-2 box drink">
+            <center>
+                <img src="http://via.placeholder.com/80x80" class="" alt="">
+                <p class="name">Cocacola </p>
+                <p class="sku">D-1314</p>
+                <p>$ 2,410</p>
+            </center>
+        </div>
+
+        <div class="col-md-2 box drink">
+            <center>
+                <img src="http://via.placeholder.com/80x80" class="" alt="">
+                <p class="name">Mountien Dwe </p>
+                <p class="sku">D-458</p>
+                <p>$ 2,410</p>
+            </center>
+        </div>
+
+
+        <div class="col-md-2 box food">
+            <center>
+                <img src="http://via.placeholder.com/80x80" class="" alt="">
+                <p class="name">Burger </p>
+                <p class="sku">F-125</p>
+                <p>$ 2,410</p>
+            </center>
+        </div>
+
+        <div class="col-md-2 box food">
+                <center>
+                    <img src="http://via.placeholder.com/80x80" class="" alt="">
+                    <p class="name">Hot Dog </p>
+                    <p class="sku">F-7412</p>
+                    <p>$ 2,410</p>
+                </center>
+            </div>
+
+
+
+    </div>
+
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="filter.js"></script>
+</body>
+
+</html>
